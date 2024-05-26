@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap" rel="stylesheet">
+        <title>Creative | Branding Agency</title>
+    </head>
+    <body>
+        <header>
+            <div class="header_logo">
+                <img src="desktop/logo.svg" alt="Company Logo" class="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="" class="btn">Schedule a Call</a></li>
+                </ul>
+            </nav>
+            <div class="header_menu-toggles">
+                <img src="mobile/icon-hamburger.svg" aria-expanded="true" alt="" class="open">
+                <img src="mobile/icon-cross.svg" aria-expanded="false"  alt="" class="close">
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="hero_img">
+                    <img src="mobile/image-hero.jpg" alt="Our Coworkers Working on the most recent project">
+                </div>
+                <div class="hero_txt">
+                    <h1>Branding &<br> website design<br> agency</h1>
+                    <p>We specialize in visual storytelling by creating cohesive brand and website design solutions for small businesses, giving lasting impression to audiences in a digital world.</p>
+                    <a href="" class="btn">Learn More</a>
+                </div>
+            </section>
+            <section class="design">
+                <div class="design_img">
+                    <picture>
+
+                     
+                     <source srcset="mobile/image-hero-tablet.jpg" media="(min-width: 700px)">
+                     <source srcset="mobile/image-hero-desktop.jpg" media="(min-width: 1200px)">
+
+                     <source src="mobile/image-hero-desktop.jpg" alt="Our Coworkers Working on the most recent project" media="(min-width: 699px)">
+                    </picture>    
+                        
+                    <img src="mobile/image-strategic.jpg" alt="A person working on a computer">
+                    </picture>
+                </div>
+                <div class="design_txt">
+                    <img src="desktop/bg-pattern-wave-red.svg" alt="">
+                    <h2><span>Design</span> is strategic.</h2>
+                    <p>"A well-crafted design strategy consistently produces desired outcomes and brand awareness. We are firm believers that success lies in creative collaboration with our clients."</p>
+                    <a href="#" class="bnt_underline">Schedule a Call</a>
+                </div>
+            </section>
+            <section class="approach">
+                <div class="approach_header">
+                    <h2>Our approach for crearing a winning brand</h2>
+                </div>
+                <div class="approach_txt">
+                    <div class="approach_item">
+                        <h3>Brand Strategy</h3>
+                        <p>Brand strategy is critical for long-term success. Outshining competitors and capturing the target audience are key.</p>
+                    </div>
+                    <div class="approach_item">
+                        <h3>Brand Design</h3>
+                        <p>Keeping the brand design unique and meaningful helps in communicating the brand's value effectively. </p>
+                    </div>
+                    <div class="approach_item">
+                        <h3>Web Design</h3>
+                        <p>A beautifully crafted website is the best tool for brand awareness, and ultimately results in increased revenues.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="slider_wrapper">
+                <div class="slide-scroller">
+                    <div class="slider">
+                        
+                        <picture>
+                            <source srcset="desktop/image-slide-1.jpg" media="(min-width: 1200px)" />
+                            <source srcset="tablet/image-slide-1.jpg" media="(min-width: 700px) and (max-width: 1199px)" />
+                            <img src="mobile/image-slide-1.jpg" alt="" class="slide hidden" />
+                        </picture>
+                        <picture>
+                            <source srcset="desktop/image-slide-2.jpg" media="(min-width: 1200px)" />
+                            <source srcset="tablet/image-slide-2.jpg" media="(min-width: 700px)" />
+                            <img src="mobile/image-slide-2.jpg" alt="" class="slide hidden" />
+                        </picture>
+                        <picture>
+                            <source srcset="desktop/image-slide-3.jpg" media="(min-width: 1200px)">
+                            <source srcset="tablet/image-slide-3.jpg" media="(min-width: 700px) and (max-width: 1199px)">
+                            <img src="mobile/image-slide-3.jpg" alt="" class="slide hidden">
+                        </picture>
+
+                        <div class="overlay">
+                            <div class="overlay_txt">
+                                <h3 class="slider-overlay-title">Lean Product Roadmap</h3>
+                                <p class="slider-overlay-subtitle">2019 Project</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slider-txt">
+                        <img src="desktop/bg-pattern-wavy-white.svg" alt="" class="white-wave">
+                        <h2 class="slide-header">Brand naming &<br>guidelines</h2>
+                        <div class="slider_controls">
+                            <div class="btn-wrapper">
+                                <img src="desktop/icon-arrow-previous.svg" alt="" class="prev">
+                            </div>
+                            <div class="btn-wrapper">
+                                <img src="desktop/icon-arrow-next.svg" alt="" class="prev">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h2>Let's build something great together.</h2>
+            <a href="" class="btn">Schedule a Call</a>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
